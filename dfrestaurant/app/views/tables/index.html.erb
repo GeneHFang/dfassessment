@@ -1,0 +1,15 @@
+<%= form_with scope: :table, local: true do |form| %>
+  <p>
+    <%= form.label :table %><br>
+    <%= form.text_field :table_no %>
+  </p>
+ 
+  <p>
+    <%= form.label :Number_Of_Guests %><br>
+    <%= form.text_field :guest_no %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>
